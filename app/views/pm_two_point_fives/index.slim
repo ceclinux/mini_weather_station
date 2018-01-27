@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Slim Examples
+    = javascript_include_tag 'Chart.bundle'
+    = javascript_include_tag 'chartkick'
+    meta name="keywords" content="template language"
+
+  body
+    h1 Markup examples
+    = pie_chart [["Football", @pms[0]], ["Basketball", @pms[1]]]
+    #content
+      p This example shows you how a basic Slim file looks.
