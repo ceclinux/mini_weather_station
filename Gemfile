@@ -17,6 +17,7 @@ ruby '2.5.0'
 gem 'rake'
 gem 'slim'
 gem "chartkick"
+gem 'puma'
 
 # Component requirements
 gem 'pg'

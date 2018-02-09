@@ -49,6 +49,7 @@ GEM
       padrino-core (= 0.14.2)
     padrino-support (0.14.2)
     pg (1.0.0)
+    puma (3.11.2)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
@@ -76,6 +77,7 @@ DEPENDENCIES
   minitest
   padrino (= 0.14.2)
   pg
+  puma
   rack-test
   rake
   sequel
