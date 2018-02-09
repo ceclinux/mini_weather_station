@@ -18,6 +18,7 @@ gem 'rake'
 gem 'slim'
 gem "chartkick"
 gem 'puma'
+gem 'pry', group: [:development]
 
 # Component requirements
 gem 'pg'
